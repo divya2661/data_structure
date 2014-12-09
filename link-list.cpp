@@ -121,7 +121,7 @@ int main(){
     link_list list1;
     int choice,k=1;
 
-    while(k=1){
+    while(k==1){
         cout<<"------------------------------"<<endl;
         cout<<"1. insert element"<<endl;
         cout<<"2. delete element"<<endl;
