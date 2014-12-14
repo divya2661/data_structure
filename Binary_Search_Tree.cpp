@@ -144,7 +144,7 @@ The parent of such a node is the succ.
 
 //-----------------------------Find minimum of the tree------------
         node *minimum(node *s){
-            if(s==NULL){cout<<"s is empty."<<endl;return s;}
+            if(s==NULL){cout<<"S is empty."<<endl;return s;}
             else{
                 while(s->left!=NULL){s = s->left;}
             }
